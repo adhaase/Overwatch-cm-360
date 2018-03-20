@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<!-- Bootstrap 4 CDN -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+    crossorigin="anonymous">
+
+<head>
+    <style>
+        body {
+            margin-top: 70px;
+            background: #333;
+            color: #fff;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 offset-md-3">
+                <!-- offset-md-3 centers app-->
+                <h1 class="display-4 text-center mb-3">Overwatch cm/360° and eDPI calculator</h1>
+                <br>
+                <br>
+                <form>
+                    <div class="form-group">
+                        <input id="mDPI_id" type="text" class="form-control form-control-lg" name="TextBox1" placeholder="Enter your mouse DPI ...">
+                    </div>
+                    <div class="form-group">
+                        <input id="ingameSens_id" type="text" class="form-control form-control-lg" name="TextBox2" placeholder="Enter your in-game sensitivity ...">
+                    </div>
+                </form>
+
+                <br>
+
+                <div class="display-4 text-center mb-3">
+                    <!-- centers the output button -->
+                    <input type="button" name="clickbtn" class="btn btn-primary btn-lg center" value="Compute cm/360°" onclick="cmResult()">
+                </div>
+                <br>
+                <br>
+                <div class="input-group">
+                    <input id="cm360Result_id" type="text" class="form-control form-control-lg" name="TextBox3" value="cm/360°">
+                    <span class="input-group-addon">cm/360°</span>
+                </div>
+                <br>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="col-md-6 offset-md-3">
+            <p class=" center text-left mb-3">
+                To use this application, enter both your mouse DPI and your Overwatch in-game sensitivity. Your mouse DPI can be found in
+                whichever software configured your mouse, and the in-game sensitivity can be found on the "Options" screen
+                within Overwatch.
+            </p>
+        </div>
+    </div>
+
+    <footer id="footer">
+        <div id="footer-content">Alex Haase | adhaase@umich.edu</div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
