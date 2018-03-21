@@ -17,7 +17,7 @@ Like many FPS games, Overwatch uses its own native sensitivity settings along wi
 To use this application, enter both your mouse DPI and your Overwatch in-game sensitivity then click the blue button. Your mouse DPI can be found in whichever software configured your mouse, and the in-game sensitivity can be found on the "Options" screen within Overwatch. After you click on the blue "Compute cm/360" button, the application will calculate the cm/360 needed to complete a full character rotation. 
 
 ## Understanding your cm/360 Result 
-A valid way to interpret your cm/360 result from this program is to compare it to the settings from Professional Overwatch players.
+A valid way to interpret your own cm/360 result from this program is to compare it to the settings from professional Overwatch players.
 A spreadsheet is available here: http://on-winning.com/overwatch-pro-sensitivity-settings-setups-monitor-mouse-keyboard-headset/
 
-As the cm/360 is universal, the output can be understood despite varying hardware/software setups, and is a valid way to interpret sensitivity settings with other players. Personally, I play on 1000 DPI with 6.5 in-game sens, which equates to 21.31 cm/360. This means I have to move my mouse 21.31 cm for my in-game character to achieve one full 360 degree rotation. These settings are very similar to Saebyolbe's, even though he plays at 810 DPI and 7.93 in-game sens!
+As the cm/360 is universal, the output can be understood despite varying hardware/software setups, and is a valid way to interpret sensitivity settings with other players. Personally, I play on 1000 DPI with 6.5 in-game sens, which equates to 21.31 cm/360. This means that I have to move my mouse 21.31 cm for my in-game character to achieve one full 360 degree rotation. These settings are very similar to Saebyolbe's (professional player for New York Excelsior), even though he plays at 810 DPI and 7.93 in-game sens!
