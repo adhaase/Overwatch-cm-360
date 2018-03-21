@@ -1,6 +1,13 @@
-# Overwatch-cm-360
-JavaScript web application for converting mouse DPI and in-game sensitivity to a universal cm/360 output.
+# Overwatch Webapp: cm/360° converter
+JavaScript web application for converting mouse DPI and in-game sensitivity to a universal cm/360° output.
 
-Initial HTML Bootstrap framework is up with JavaScript implementation, CSS still under development.
+**Hosted here on GitHub**: https://adhaase.github.io/Overwatch-cm-360/
 
-Hosted here on GitHub: https://adhaase.github.io/Overwatch-cm-360/
+## * Program Still Under Development *
+Initial HTML Bootstrap framework is up with basic JavaScript implementation, CSS still under development. FAQ still under development. 
+
+## Uses for the Application
+Like many FPS games, Overwatch uses its own native sensitivity settings along with a users mouse DPI to allow a character to produce movement. Sensitivity varies heavily based on the game, so it is necessary to standardize an input method to achieve some form of normality. This can be accomplished by understanding how many centimeters of mouse movement it takes to move your character 360 degrees. 
+
+## How to Use the Application
+To use this application, enter both your mouse DPI and your Overwatch in-game sensitivity. Your mouse DPI can be found in whichever software configured your mouse, and the in-game sensitivity can be found on the "Options" screen within Overwatch. After you click on the blue "Compute cm/360" button, the application will calculate the cm/360 needed to complete a full character rotation. 
