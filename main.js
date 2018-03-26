@@ -18,3 +18,25 @@ function cmResult() {
     console.log(user_ingameSens);
     console.log(maximumValPer360)
 }
+
+// accordion click events
+// loop through each accordion, set dynamic click event
+var accordions = document.getElementsByClassName("accordion"); // array with all accordions inside
+
+// loop through array, create click event
+for (var i = 0; i < accordions.length; ++i) {
+    accordions[i].onclick = function() {
+        this.classList.toggle('is-open');
+        var content = this.nextElementSibling; // this represents current accordion we are working with
+        
+        if (content.style.maxHeight) { // check current val of maxheight, indicates if accordion is open or closed
+            // if maxheight = 0, accordion is closed. Else, open.
+            content.style.maxHeight = null;
+        }
+        else {
+            // accordion is closed
+            content.style.maxHeight = content.scrollHeight + "px"; // gets total value of all content inside (integer based on how many px content requires)
+
+        }
+    }
+}
