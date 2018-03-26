@@ -8,14 +8,14 @@
     <style>
         body {
             margin-top: 70px;
-            background: #333;
+            background: #181818;
             color: #fff;
+            text-align: center;
         }
     </style>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
     <!-- for accordions -->
-    <IMG SRC="https://user-images.githubusercontent.com/9776844/37692727-dd8f4d94-2c90-11e8-9684-b0ef6005a069.png" WIDTH=60 HEIGHT=60>
 </head>
 
 <body>
@@ -24,93 +24,25 @@
         <div class="row">
             <div class="col-md-6 offset-md-3">
                 <!-- offset-md-3 centers app-->
+
                 <h1 class="display-4 text-center mb-3">Overwatch cm/360° and eDPI converter</h1>
+                <img src="https://user-images.githubusercontent.com/9776844/37692727-dd8f4d94-2c90-11e8-9684-b0ef6005a069.png">
                 <br>
-                <br>
-                <form>
-                    <div class="form-group">
-                        <input id="mDPI_id" type="number" class="form-control form-control-lg" name="TextBox1" placeholder="Enter your mouse DPI ...">
-                    </div>
-                    <div class="form-group">
-                        <input id="ingameSens_id" type="number" class="form-control form-control-lg" name="TextBox2" placeholder="Enter your in-game sensitivity ...">
-                    </div>
-                </form>
-
-                <br>
-
-                <div class="display-4 text-center mb-3">
-                    <!-- centers the output button -->
-                    <input type="button" name="clickbtn" class="btn btn-primary btn-lg center" value="Compute cm/360°" onclick="cmResult()">
-                </div>
-                <br>
-                <br>
-                <div id="output_id">
-                    <div class="input-group">
-                        <input id="cm360Result_id" type="number" class="form-control form-control-lg" name="TextBox3" value="cm/360°">
-                        <!--<span class="input-group-addon">cm/360°</span> -->
-                        <!-- add CSS -->
+                <div class="nav">
+                    <div class="container">
+                        <br>
+                        <br>
+                        <div class="button-box col-lg-12">
+                                <a href="cm-360.html" class="btn btn-primary btn-lg">cm/360° converter</a>
+                                <a href="edpi.html" class="btn btn-success btn-lg">eDPI converter</a>
+                              </div>
                     </div>
                 </div>
+                <!-- end nav -->
+                <br>
                 <br>
             </div>
         </div>
-    </div>
-
-    <div class="container">
-        <!-- start accordion -->
-        <div class="col-md-6 offset-md-3">
-
-            <button class="accordion">Uses for this Application</button>
-            <div class="accordion-content">
-                <p>
-                    Like many FPS games, Overwatch uses its own native sensitivity settings along with a users mouse DPI to allow a character
-                    to produce movement.
-                </p>
-                <p>
-                    Sensitivity varies heavily based on the game, so it is necessary to standardize an input method to achieve some form of normality.
-                    This can be accomplished by understanding how many centimeters of mouse movement it takes to move your
-                    character in one 360 degree rotation.
-                </p>
-            </div>
-
-            <button class="accordion">Where to find your mouse DPI and in-game sens</button>
-            <div class="accordion-content">
-                <p>
-                    Your mouse DPI can be found in whichever software configured your mouse, and the in-game sensitivity can be found on the
-                    "Options" screen within Overwatch. After you click on the blue "Compute cm/360°" button, the application
-                    will calculate the cm/360° needed to complete a full character rotation.
-                </p>
-            </div>
-
-            <button class="accordion">Understanding your cm/360° Result</button>
-            <div class="accordion-content">
-                <p>
-                    A valid way to interpret your own cm/360° result from this program is to compare it to the settings from professional Overwatch
-                    players. A spreadsheet is available
-                    <a href="http://on-winning.com/overwatch-pro-sensitivity-settings-setups-monitor-mouse-keyboard-headset/">here</a>. As the cm/360° is universal, the output can be understood despite varying hardware/software
-                    setups, and is a valid way to interpret sensitivity settings with other players.
-                </p>
-
-                <p>
-                    Personally, I play on 1000 DPI with 6.5 in-game sens, which equates to 21.31 cm/360°. This means that I have to move my mouse
-                    21.31 cm for my in-game character to achieve one full 360 degree rotation. These settings are very similar
-                    to
-                    <a href="http://liquipedia.net/overwatch/Saebyeolbe">Saebyolbe's</a> (professional player for team
-                    <a href="http://liquipedia.net/overwatch/New_York_Excelsior">New York Excelsior</a>), even though he plays at 810 DPI and 7.93 in-game sens! For reference, this is
-                    a very high sensitivity, most players are around the mid 30's range.
-                </p>
-            </div>
-
-            <button class="accordion">Contact</button>
-            <div class="accordion-content">
-                <p>
-                    Alex Haase |
-                    <a href="mailto:adhaase@umich.edu">email: adhaase@umich.edu</a> |
-                    <a href="https://github.com/adhaase">GitHub</a>
-                </p>
-            </div>
-        </div>
-        <!-- end Accordions-->
     </div>
 
     <br>
