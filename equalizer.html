@@ -12,7 +12,7 @@
             color: #fff;
         }
     </style>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
     <!-- for accordions -->
 </head>
@@ -50,7 +50,7 @@
         <div class="row">
             <div class="col-md-6 offset-md-3">
                 <!-- offset-md-3 centers app-->
-                <h1 class="display-4 text-center mb-3">eDPI converter</h1>
+                <h1 class="display-4 text-center mb-3">sensitivity equalizer</h1>
                 <br>
                 <br>
                 <form>
@@ -58,7 +58,7 @@
                         <input id="mDPI_id" type="number" class="form-control form-control-lg" name="TextBox1" placeholder="Enter your mouse DPI ...">
                     </div>
                     <div class="form-group">
-                        <input id="ingameSens_id" type="number" class="form-control form-control-lg" name="TextBox2" placeholder="Enter your in-game sensitivity ...">
+                        <input id="alt_cm360_id" type="number" class="form-control form-control-lg" name="TextBox2" placeholder="Enter your cm/360° result from another game ...">
                     </div>
                 </form>
 
@@ -66,15 +66,13 @@
 
                 <div class="display-4 text-center mb-3">
                     <!-- centers the output button -->
-                    <input type="button" name="clickbtn" class="btn btn-primary btn-lg outline" value="Compute eDPI" onclick="cmResult()">
+                    <input type="button" name="clickbtn" class="btn btn-primary btn-lg outline" value="Compute equivalent in-game sens" onclick="sensResult()">
                 </div>
                 <br>
                 <br>
                 <div id="output_id">
                     <div class="input-group">
-                        <input id="cm360Result_id" type="number" class="form-control form-control-lg" name="TextBox3" value="cm/360°">
-                        <!--<span class="input-group-addon">cm/360°</span> -->
-                        <!-- add CSS -->
+                        <input id="sensResult_id" type="number" class="form-control form-control-lg" name="TextBox3">
                     </div>
                 </div>
                 <br>
@@ -89,21 +87,24 @@
             <button class="accordion">Uses for this Application</button>
             <div class="accordion-content">
                 <p>
-                    todo
+                    Like many FPS games, Overwatch uses its own native sensitivity settings along with a users mouse DPI to allow a character
+                    to produce movement.
+                </p>
+                <p>Players may already have an optimal distance in which they move the mouse to complete one 360 degree character
+                    rotation derived from a different game. Therefore, in order to keep things consistent, they can use that
+                    distance calulation along with their mouse DPI co acheieve a comparable in-game sensitivity for Overwatch.
                 </p>
             </div>
 
-            <button class="accordion">Where to find your mouse DPI and in-game sens</button>
+            <button class="accordion">Where to find your mouse DPI and cm/360° Result</button>
             <div class="accordion-content">
                 <p>
-                   todo
+                    Your mouse DPI can be found in whichever software configured your mouse. The sensitivity equalizer is used for converting
+                    a cm/360 result from a different game into a native Overwatch sensitivity.
                 </p>
-            </div>
-
-            <button class="accordion">Understanding your eDPI Result</button>
-            <div class="accordion-content">
-                <p>
-                   todo
+                <p>It is expected that you have this information, whether it be from logging into whatever game you're playing
+                    and physically measuring the distance it takes to move your character, or using another conversion system
+                    like shown on this application.
                 </p>
             </div>
         </div>
@@ -119,15 +120,17 @@
             <nav>
                 <u1 class="no-bullets">
                     <li>
-                        <a href='https://github.com/adhaase/'>
-                            <i class="fa fa-github" title="GitHub"></i>
-                        </a>
-                        <a href='mailto:adhaase@umich.edu/'>
-                            <i class="fa fa-envelope-square" title="email: adhaase@umich.edu"></i>
-                        </a>
-                        <a href='http://adhaase.github.io/'>
-                            <i class="fa fa-globe" title="Website"></i>
-                        </a>
+                        <div class="social-media-icons">
+                            <a href='https://github.com/adhaase/'>
+                                <i class="fa fa-github" title="GitHub"></i>
+                            </a>
+                            <a href='mailto:adhaase@umich.edu/'>
+                                <i class="fa fa-envelope-square" title="email: adhaase@umich.edu"></i>
+                            </a>
+                            <a href='http://adhaase.github.io/'>
+                                <i class="fa fa-globe" title="Website"></i>
+                            </a>
+                        </div>
                     </li>
                 </u1>
             </nav>

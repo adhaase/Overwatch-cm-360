@@ -1,8 +1,9 @@
 // 360 degrees in X cm = Maximum value CM Per 360 / OW Sensitivity / DPI
+// OW Sens = (Maximum value CM Per 360) / (cm * DPI)
 
 document.getElementById('output_id').style.visibility = 'hidden';
 
-function cmResult() {
+function cmResult() { // for cm-360.html
     //document.getElementById("output_id").addEventListener("click", cmResult);
     document.getElementById('output_id').style.visibility = 'visible';
     
@@ -16,7 +17,24 @@ function cmResult() {
     // double checking values
     console.log(user_mDPI);
     console.log(user_ingameSens);
-    console.log(maximumValPer360)
+    console.log(maximumValPer360);
+}
+
+function sensResult() { // for equalizer.html
+    //document.getElementById("output_id").addEventListener("click", cmResult);
+    document.getElementById('output_id').style.visibility = 'visible';
+    
+    var maximumValPer360 = 138545.455;
+    var user_mDPI = parseFloat(document.getElementById("mDPI_id").value);
+    var alternate_cm360 = parseFloat(document.getElementById("alt_cm360_id").value);
+    var sensitivityResult = (maximumValPer360) / (alternate_cm360 * user_mDPI);
+
+    document.getElementById("sensResult_id").value = sensitivityResult.toFixed(2);
+    
+    // double checking values
+    console.log(user_mDPI);
+    console.log(alternate_cm360);
+    console.log(sensitivityResult);
 }
 
 // accordion click events
