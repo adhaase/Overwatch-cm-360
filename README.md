@@ -3,13 +3,8 @@ JavaScript web application for converting mouse DPI and in-game sensitivity to a
 
 **Hosted here on GitHub**: https://adhaase.github.io/Overwatch-cm-360/
 
-![image](https://user-images.githubusercontent.com/9776844/37692727-dd8f4d94-2c90-11e8-9684-b0ef6005a069.png)
+![home_screen](https://user-images.githubusercontent.com/9776844/38000256-b1f57e42-31f4-11e8-8ac3-eafe17acb295.png)
 
-```diff
-- **Program Still Under Development**
-```
-Initial HTML Bootstrap framework is up with basic JavaScript implementation, CSS still under development. JS/Angular FAQ still under development. I plan to add an alternate implementation; which will allow the user to enter their cm/360° output from a different game and recieve an appropriate in-game sensitivity for Overwatch. // Coming soon! :D 
-As for now, the program is perfectly accurate in the cm/360° calculation.
 
 ## Uses for the Application
 Like many FPS games, Overwatch uses its own native sensitivity settings along with a users mouse DPI to allow a character to produce movement. Sensitivity varies heavily based on the game, so it is necessary to standardize an input method to achieve some form of normality. This can be accomplished by understanding how many centimeters of mouse movement it takes to move your character in one 360 degree rotation. 
