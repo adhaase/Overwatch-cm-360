@@ -15,31 +15,42 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
     <!-- for accordions -->
-    <IMG src="https://user-images.githubusercontent.com/9776844/37692727-dd8f4d94-2c90-11e8-9684-b0ef6005a069.png" WIDTH=60 HEIGHT=60>
 </head>
 
 <body>
+    <div id="header" class="header">
+        <div class="container">
+            <div class="logo">
+                <h1>
+                    <img src="https://user-images.githubusercontent.com/9776844/37692727-dd8f4d94-2c90-11e8-9684-b0ef6005a069.png" WIDTH=60 HEIGHT=60>
+                </h1>
+            </div>
+
+            <div class="nav">
+                <div class="button-box col-lg-12">
+                    <ul>
+                        <li>
+                            <a href="edpi.html" class="btn btn-primary btn-lg outline">eDPI converter</a>
+                        </li>
+                        <li>
+                            <a href="index.html" class="btn btn-primary btn-lg outline">Home</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end header -->
+
+    <div class="container">
+
+    </div>
 
     <div class="container">
         <div class="row">
             <div class="col-md-6 offset-md-3">
                 <!-- offset-md-3 centers app-->
-                <div class="nav">
-                        <div class="container">
-                            <ul class="pull-left">
-                                <li>
-                                    <a href="index.html">Home</a>
-                                </li>
-                            </ul>
-                            <ul class="pull-right">
-                                <li>
-                                    <a href="edpi.html">eDPI converter</a>
-                                </li>
-    
-                            </ul>
-                        </div>
-                    </div> <!-- end nav -->
-                <h1 class="display-4 text-center mb-3">Overwatch cm/360° converter</h1>
+                <h1 class="display-4 text-center mb-3">cm/360° converter</h1>
                 <br>
                 <br>
                 <form>
@@ -115,15 +126,6 @@
                     a very high sensitivity, most players are around the mid 30's range.
                 </p>
             </div>
-
-            <button class="accordion">Contact</button>
-            <div class="accordion-content">
-                <p>
-                    Alex Haase |
-                    <a href="mailto:adhaase@umich.edu">email: adhaase@umich.edu</a> |
-                    <a href="https://github.com/adhaase">GitHub</a>
-                </p>
-            </div>
         </div>
         <!-- end Accordions-->
     </div>
@@ -131,11 +133,27 @@
     <br>
     <br>
     <br>
-    <!---
-    <footer id="footer">
-        <div id="footer-content">Alex Haase | adhaase@umich.edu | github.com/adhaase</div>
+
+    <footer>
+        <div class="wrapper" style="font-size:3em">
+            <nav>
+                <u1 class="no-bullets">
+                    <li>
+                        <a href='https://github.com/adhaase/'>
+                            <i class="fa fa-github" title="GitHub"></i>
+                        </a>
+                        <a href='mailto:adhaase@umich.edu/'>
+                            <i class="fa fa-envelope-square" title="email: adhaase@umich.edu"></i>
+                        </a>
+                        <a href='http://adhaase.github.io/'>
+                            <i class="fa fa-globe" title="Website"></i>
+                        </a>
+                    </li>
+                </u1>
+            </nav>
+        </div>
     </footer>
-    -->
+
 
     <script src="main.js"></script>
 </body>
