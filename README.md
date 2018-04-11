@@ -3,7 +3,7 @@ JavaScript web application for converting mouse DPI and in-game sensitivity to a
 
 **Hosted here on GitHub**: https://adhaase.github.io/Overwatch-cm-360/
 
-![home_screen](https://user-images.githubusercontent.com/9776844/38000256-b1f57e42-31f4-11e8-8ac3-eafe17acb295.png)
+![ow_app-github-homescreen](https://user-images.githubusercontent.com/9776844/38598016-b27a5498-3d28-11e8-8f67-ef70b8a1c217.png)
 
 
 ## Uses for the Application
