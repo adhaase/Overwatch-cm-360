@@ -1,4 +1,6 @@
 # Overwatch Web App: cm/360° converter and sensitivity equalizer
+![ow-calculator-logo](https://user-images.githubusercontent.com/9776844/39694248-ad7afd94-51b4-11e8-8cad-be51de0c5e69.png)
+
 JavaScript based web application for converting mouse DPI and in-game sensitivity to a universal cm/360° output.
 
 **Hosted here on GitHub**: https://adhaase.github.io/Overwatch-cm-360/ 
