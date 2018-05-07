@@ -45,11 +45,20 @@ body.calculators {
   height: 20%;
   top: 0%;
   position: fixed;
-  float: left;
 }
 
 .indexLogo {
-  float: left;
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  display: flex;
+  justify-content: center;
+  background: rgb(0, 0, 0, 0.3);
+}
+
+.indexLogo:hover {
+  cursor: pointer;
+  background: rgb(0, 0, 0, 0.7);
 }
 
 /* --------------- SUB HEADER --------------- */
@@ -100,7 +109,7 @@ li {
 }
 
 .fa:hover {
-  color: #5b81a3;
+  color: rgba(78, 3, 28, 0.637);
 }
 
 .social-media-icons {
