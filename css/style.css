@@ -54,12 +54,13 @@ body.calculators {
   display: flex;
   justify-content: center;
   background: rgb(0, 0, 0, 0.2);
-  box-shadow: 13px 13px 21px -10px rgba(0, 0, 0, 0.3)
+  /*box-shadow: 13px 13px 21px -10px rgba(0, 0, 0, 0.3);*/
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
 }
 
 .indexLogo:hover {
   cursor: pointer;
-  background: rgb(0, 0, 0, 0.4);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 }
 
 /* --------------- SUB HEADER --------------- */
