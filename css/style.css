@@ -6,16 +6,30 @@ Font Icons
 Boostrap button css
 Accordion css */
 
+.logo {
+  z-index: -1;
+  position: relative;
+}
+
 body.home {
   height: 100%;
   width: 100%;
   margin: auto;
-  background: url(../images/home-screen.png) no-repeat center center fixed;
+  /*background: url(../images/home-screen.png) no-repeat center center fixed;*/
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   display: table; /*remove top margin*/
+}
+
+/* Style the video: 100% width and height to cover the entire window */
+#backgroundHanamuraVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
 }
 
 body.calculators {
@@ -26,7 +40,7 @@ body.calculators {
 
 /* --------------- HEADER --------------- */
 .header {
-  background: #222;
+  background: rgb(0, 0, 0, 0.5);
   width: 100%;
   top: 0%;
   position: fixed;
@@ -67,11 +81,11 @@ li {
   width: 50px;
   text-align: center;
   text-decoration: none;
-  color: #f99e1a;
+  color: #aaaaaa;
 }
 
 .fa:hover {
-  color: #33a6cc;
+  color: #5b81a3;
 }
 
 .social-media-icons {
@@ -100,57 +114,23 @@ li {
   border-radius: 6px;
 }
 
-.btn-primary {
-  color: #fff;
-  background-color: #f99e1a;
-  border-color: #33a6cc;
-}
-
-.btn-primary:hover,
-.btn-primary:focus,
-.btn-primary:active,
-.btn-primary.active,
-.open .dropdown-toggle.btn-primary {
-  color: #fff;
-  background-color: #f99e1a;
-  border-color: #33a6cc;
-}
-
-.btn.outline {
-  background: none;
+.btn.btn-primary.btn-lg.outline {
+  /*bootstrap buttons*/
+  background-color: rgb(0, 0, 0, 0.5);
+  border: none;
   padding: 12px 22px;
 }
 
-.btn-primary.outline {
-  border: 2px solid #f99e1a;
-  color: #f99e1a;
-}
-
-.btn-primary.outline:hover,
-.btn-primary.outline:focus,
-.btn-primary.outline:active,
-.btn-primary.outline.active,
-.open > .dropdown-toggle.btn-primary {
-  color: #33a6cc;
-  border-color: #33a6cc;
-}
-
-.btn-primary.outline:active,
-.btn-primary.outline.active {
-  border-color: #007299;
-  color: #007299;
-  box-shadow: none;
-}
-
 .btn.btn-primary.btn-lg.outline:hover {
-  background: none;
+  color: #fff;
+  background-color: rgb(0, 0, 0, 0);
 }
 
 .btn.btn-primary.btn-lg.outline:active:focus {
   /*when clicked */
   color: whitesmoke;
   background: none;
-  border-color: #007299;
+  border-color: none;
 }
 
 .home-button-posit {
