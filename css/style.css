@@ -107,11 +107,11 @@ li {
   width: 50px;
   text-align: center;
   text-decoration: none;
-  color: #aaaaaa;
+  color: #C9A1BF;
 }
 
 .fa:hover {
-  color: rgba(78, 3, 28, 0.637);
+  color: #AEB5F0;
 }
 
 .social-media-icons {
