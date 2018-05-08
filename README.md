@@ -26,3 +26,6 @@ A valid way to interpret your own cm/360° result from this program is to compar
 A spreadsheet is available [here](http://on-winning.com/overwatch-pro-sensitivity-settings-setups-monitor-mouse-keyboard-headset/).
 
 As the cm/360° is universal, the output can be understood despite varying hardware/software setups, and is a valid way to interpret sensitivity settings with other players. Personally, I play on 1000 DPI with 6.5 in-game sens, which equates to 21.31 cm/360°. This means that I have to move my mouse 21.31 cm for my in-game character to achieve one full 360 degree rotation. These settings are very similar to [Saebyolbe's](http://liquipedia.net/overwatch/Saebyeolbe) (professional player for team [New York Excelsior](http://liquipedia.net/overwatch/New_York_Excelsior)), even though he plays at 810 DPI and 7.93 in-game sens! For reference, this is a very high sensitivity, most players are around the mid 30's range.  
+
+#### Site Logo
+Multimedia graphic by <a href="http://www.flaticon.com/authors/roundicons">roundicons</a> from <a href="http://www.flaticon.com/">Flaticon</a> is licensed under <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0">CC BY 3.0</a>. I created the Logo via LogoMakr.com.
