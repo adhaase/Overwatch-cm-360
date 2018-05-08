@@ -72,10 +72,22 @@ body.calculators {
   position: fixed;
 }
 
+.header .nav {
+  position: absolute;
+  top: 8px;
+  right: 16px; /* move nav menu (buttons) to the right */
+  display: flex;
+}
+
 .logo {
-  float: left;
-  font-family: "Arial";
-  font-size: 15px;
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  display: flex;
+  justify-content: center;
+  background: rgb(0, 0, 0, 0.2);
+  /*box-shadow: 13px 13px 21px -10px rgba(0, 0, 0, 0.3);*/
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
 }
 
 a {
@@ -107,11 +119,11 @@ li {
   width: 50px;
   text-align: center;
   text-decoration: none;
-  color: #C9A1BF;
+  color: #dabbd2;
 }
 
 .fa:hover {
-  color: #AEB5F0;
+  color: #aeb5f0;
 }
 
 .social-media-icons {
