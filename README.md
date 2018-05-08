@@ -9,6 +9,8 @@ JavaScript based web application for converting mouse DPI and in-game sensitivit
 
 ![cm360 converter screen](https://user-images.githubusercontent.com/9776844/39735942-d3d8df14-524b-11e8-83f9-4480434f3d0f.png)
 
+![sensequal screen](https://user-images.githubusercontent.com/9776844/39736027-44efab7e-524c-11e8-9d29-50dfa2fa6d30.png)
+
 
 ## Uses for the Application
 Like many FPS games, Overwatch uses its own native sensitivity settings along with a users mouse DPI to allow a character to produce movement. Sensitivity varies heavily based on the game, so it is necessary to standardize an input method to achieve some form of normality. This can be accomplished by understanding how many centimeters of mouse movement it takes to move your character in one 360 degree rotation. 
