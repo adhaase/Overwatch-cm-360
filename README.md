@@ -16,7 +16,7 @@ Like many FPS games, Overwatch uses its own native sensitivity settings along wi
 
 ## How to Use the Application
 ### cm/360° Converter
-To use this application, enter both your mouse DPI and your Overwatch in-game sensitivity then click the orange button. Your mouse DPI can be found in whichever software configured your mouse, and the in-game sensitivity can be found on the "Options" screen within Overwatch. After you click on the "Compute cm/360°" button, the application will calculate the cm/360° needed to complete a full character rotation.
+To use this application, enter both your mouse DPI and your Overwatch in-game sensitivity then click the "Compute cm/360" button. Your mouse DPI can be found in whichever software configured your mouse, and the in-game sensitivity can be found on the "Options" screen within Overwatch. After you click on the "Compute cm/360°" button, the application will calculate the cm/360° needed to complete a full character rotation.
 
 ### Sensitivity Equalizer
 Players may already have an optimal distance in which they move the mouse to complete one 360 degree character rotation derived from a different game. Therefore, in order to keep things consistent, they can use that distance calulation along with their mouse DPI to achieve a comparable in-game sensitivity for Overwatch.
